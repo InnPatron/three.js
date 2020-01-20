@@ -170,5 +170,3 @@ export * from './renderers/webgl/WebGLTextures';
 export * from './renderers/webgl/WebGLUniforms';
 export * from './constants';
 export * from './Three.Legacy';
-
-export as namespace THREE;

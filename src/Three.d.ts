@@ -169,4 +169,3 @@ export * from './renderers/webgl/WebGLState';
 export * from './renderers/webgl/WebGLTextures';
 export * from './renderers/webgl/WebGLUniforms';
 export * from './constants';
-export * from './Three.Legacy';

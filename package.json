@@ -35,13 +35,8 @@
     ],
     "rules": {
       "@typescript-eslint/no-unused-vars": 1,
-      "@typescript-eslint/indent": [
-        "error",
-        "tab",
-        {
-          "SwitchCase": 1
-        }
-      ]
+      "@typescript-eslint/indent": [ "off" ],
+      "indent": [ "off" ]
     }
   },
   "scripts": {

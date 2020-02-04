@@ -30,7 +30,7 @@ export class PropertyBinding {
 		root: any,
 		path: any,
 		parsedPath?: any
-	): PropertyBinding | PropertyBinding.Composite;
+	): PropertyBinding | Composite;
 	static sanitizeNodeName( name: string ): string;
 	static parseTrackName( trackName: string ): ParseTrackNameResults;
 	static findNode( root: any, nodeName: string ): any;
